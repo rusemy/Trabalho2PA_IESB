@@ -75,30 +75,33 @@ Material:
     - _SrcBlend: 1
     - _SunDisk: 2
     - _SunIntensity: 2
-    - _SunRadiusA: 0.0278
+    - _SunRadiusA: 0.046
     - _SunRadiusB: 0.0721
     - _SunSize: 0.206
     - _SunSizeConvergence: 4.43
-    - _Sunintensity: 23.6
+    - _Sunintensity: 0.459
+    - _SunriseSunsetSize: 2
     - _UVSec: 0
     - _ZWrite: 1
-    - _day: 1
+    - _day: 0.684
     - _dayEnd: 0
     - _daynight: 1
-    - _horizon: 0.83
+    - _horizon: 0.69
     - _nightEnd: 1
     - _node_1883: 2
     - _node_3069: 5.33
     - _node_3701: 1
     - _node_4361: 6.61
+    - _node_4762: 1
     - _node_9128: 1.94
     - _node_9670: 0
+    - _node_9870: 4
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DarkColor: {r: 0.07450981, g: 0.047058824, b: 0.2, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _EndDayColor: {r: 0.9150943, g: 0.5871897, b: 0.11654497, a: 1}
-    - _EndNightColor: {r: 0.8301887, g: 0.49843115, b: 0.113563575, a: 1}
+    - _EndDayColor: {r: 1, g: 0.591133, b: 0, a: 1}
+    - _EndNightColor: {r: 1, g: 0.5921569, b: 0, a: 1}
     - _GroundColor: {r: 0.23584908, g: 0.09837641, b: 0.043387335, a: 1}
     - _HorizonColor: {r: 0.15419187, g: 0.29276773, b: 0.4245283, a: 1}
     - _LightColor: {r: 0.13725491, g: 0.8784314, b: 0.8627451, a: 1}
@@ -106,5 +109,6 @@ Material:
     - _MidNightColor: {r: 0.058205724, g: 0.03951584, b: 0.22641507, a: 1}
     - _SkyColor: {r: 0.8773585, g: 0.8145603, b: 0.69112676, a: 1}
     - _SkyTint: {r: 0.56817377, g: 0.9056604, b: 0.877857, a: 1}
+    - _SunriseSunsetColor: {r: 1, g: 0.591133, b: 0, a: 1}
     - _node_4630: {r: 0.9528302, g: 0.605943, b: 0.12135102, a: 1}
     - _node_5663: {r: 0.5, g: 0.5, b: 0.5, a: 1}
