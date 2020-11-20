@@ -58,8 +58,7 @@ Shader "Shader Forge/Clouds" {
                 float2 node_526 = (i.uv0+_node_5182_var*float2(1,1));
                 float4 _node_2929_var = tex2D(_node_2929,TRANSFORM_TEX(node_526, _node_2929));
                 float4 _node_7569_var = tex2D(_node_7569,TRANSFORM_TEX(node_526, _node_7569));
-                float3 node_67 = (1.0 - _node_7569_var.rgb);
-                float3 node_8653 = (_node_2929_var.rgb*node_67);
+                float3 node_8653 = (_node_2929_var.rgb*(1.0 - _node_7569_var.rgb));
                 float3 emissive = node_8653;
                 float3 finalColor = emissive;
                 return fixed4(finalColor,1);

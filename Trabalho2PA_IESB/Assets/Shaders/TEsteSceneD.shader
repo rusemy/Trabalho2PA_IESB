@@ -65,8 +65,7 @@ Shader "Shader Forge/TEsteSceneD" {
                 float3 emissive = _node_5666_var.rgb;
                 float3 finalColor = emissive;
                 float _node_1405_var = UNITY_ACCESS_INSTANCED_PROP( Props, _node_1405 );
-                float node_9844 = saturate((sceneZ-partZ)/(partZ*_node_1405_var));
-                return fixed4(finalColor,node_9844);
+                return fixed4(finalColor,saturate((sceneZ-partZ)/(partZ*_node_1405_var)));
             }
             ENDCG
         }
