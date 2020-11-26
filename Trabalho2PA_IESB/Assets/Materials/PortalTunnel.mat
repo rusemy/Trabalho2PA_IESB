@@ -96,7 +96,7 @@ Material:
     - _MainUVSpeed: {r: 0.04, g: 0.2, b: 0, a: 0}
     - _MainUVSpeed_copy: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _NoiseUVSpeed: {r: 0.1, g: 0.1, b: 0, a: 0}
-    - _OutterColor: {r: 1.4980392, g: 0.5287601, b: 0, a: 1}
+    - _OutterColor: {r: 1.4901961, g: 0.47058824, b: 0, a: 1}
     - _TintColor: {r: 0, g: 2, b: 1.9616175, a: 1}
     - _node_2188: {r: 1, g: 0, b: 0, a: 1}
     - _node_3422: {r: 0, g: 1, b: 0.24671856, a: 1}
